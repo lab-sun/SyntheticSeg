@@ -25,3 +25,16 @@ We provide pretrained weights obtained using our method by jointly training synt
 | Swin-T | 59.9% | [CRM-T](https://drive.google.com/file/d/15TBB1EcMxCG5MqmZ8-H9LGmdY0LZdo97/view?usp=drive_link) |
 | Swin-S | 62.0% | [CRM-S](https://drive.google.com/file/d/15TBB1EcMxCG5MqmZ8-H9LGmdY0LZdo97/view?usp=drive_link) |
 | Swin-B | 62.1% | [CRM-B](https://drive.google.com/file/d/15TBB1EcMxCG5MqmZ8-H9LGmdY0LZdo97/view?usp=drive_link) |
+
+## Citation
+If you use our work in your research, please cite:
+
+```    
+    @article{li2025syntheticseg,
+      title={Improving RGB-Thermal Semantic Scene Understanding with Synthetic Data Augmentation for Autonomous Driving},
+      author={Li, Haotian and Chu, Henry K and Sun, Yuxiang},
+      journal={IEEE Robotics and Automation Letters},
+      year={2025},
+      publisher={IEEE}
+    }
+```
