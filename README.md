@@ -5,7 +5,7 @@ The official implementation of **Improving RGB-Thermal Semantic Scene Understand
 We propose a data-driven method, SyntheticSeg, to enhance RGB-T semantic segmentation by generating a large-scale, high-fidelity synthetic dataset.
 
 ## Results
-We provide pretrained weights obtained using our method by jointly training synthetic and real images on the MFNet dataset. These weights are applicable to methods utilizing different backbones on RTFNet, CMX, and CRM.
+We provide pretrained weights obtained using our method by jointly training synthetic and real images on the MFNet dataset. These weights are applicable to methods utilizing different backbones on [RTFNet](https://github.com/yuxiangsun/RTFNet), [CMX](https://github.com/huaaaliu/RGBX_Semantic_Segmentation), and [CRM](https://github.com/UkcheolShin/CRM_RGBTSeg).
 
 ### RTFNet
 | Backbone | mIOU | Weight |
