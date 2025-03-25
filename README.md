@@ -4,6 +4,11 @@ The official implementation of **Improving RGB-Thermal Semantic Scene Understand
 ## Introduction
 We propose a data-driven method, SyntheticSeg, to enhance RGB-T semantic segmentation by generating a large-scale, high-fidelity synthetic dataset.
 
+## Synthetic Dataset
+You can download our synthetic dataset directly [here](http://labsun.mne.cityu.edu.hk/downloads/), or you can train and infer your own synthetic dataset through [FreestyleNet](https://github.com/essunny310/FreestyleNet).
+
+Here, we use the checkpoint of our [Temporal-Consistent-RGBT-Segmentation](https://github.com/lab-sun/Temporal-Consistent-RGBT-Segmentation) to calculate the mean loss for each class.
+
 ## Results
 We provide pretrained weights obtained using our method by jointly training synthetic and real images on the MFNet dataset. These weights are applicable to methods utilizing different backbones on [RTFNet](https://github.com/yuxiangsun/RTFNet), [CMX](https://github.com/huaaaliu/RGBX_Semantic_Segmentation), and [CRM](https://github.com/UkcheolShin/CRM_RGBTSeg).
 
