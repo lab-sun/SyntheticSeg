@@ -73,11 +73,11 @@ def main():
         
         # Update the total pixel count and loss sum for each class
         for class_ in classes:
-            if class_ == 0:  # Exclude the background class
+            if class_ == 0:  
                 continue
             pixel_count = torch.sum(mask == class_).item()
-            total_pixel_count += pixel_count  # Add to total valid pixel count
-            class_wise_pixel_count[class_ - 1] += pixel_count  # Update pixel count for the current class
+            total_pixel_count += pixel_count  
+            class_wise_pixel_count[class_ - 1] += pixel_count  
             pixel_num, loss_sum = class_wise_mean_loss[class_ - 1]
             class_wise_mean_loss[class_ - 1] = (
                 pixel_num + pixel_count,
