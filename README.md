@@ -17,26 +17,11 @@ Then, place them in 'datasets' folder in the following structure:
 ```
 
 ## Prepare Sampled Synthetic Dataset
-We utilize the checkpoint of our [Temporal-Consistent-RGBT-Segmentation](https://github.com/lab-sun/Temporal-Consistent-RGBT-Segmentation) repository to compute the mean loss for each class. Please refer to its guidelines to set up the environment.
-
-
-* Download the checkpoint of our [Temporal-Consistent-RGBT-Segmentation](https://github.com/lab-sun/Temporal-Consistent-RGBT-Segmentation) repository [here](https://drive.google.com/file/d/1ZxI-aGzot4WXw5TqxAibTEmlgZ7gSCYE/view?usp=sharing) and place it in 'ckpt' folder in the following structure:
+* We utilize the checkpoint of our [Temporal-Consistent-RGBT-Segmentation](https://github.com/lab-sun/Temporal-Consistent-RGBT-Segmentation) repository to compute the mean loss for each class. Please refer to its guidelines to set up the environment and prepare the pretrained backbone. Then, download our checkpoint [here](https://drive.google.com/file/d/1ZxI-aGzot4WXw5TqxAibTEmlgZ7gSCYE/view?usp=sharing) and place it in 'ckpt' folder in the following structure:
 
 ```shell
 <ckpt>
 |-- <ckpt.pth>
-```
-
-* Download the pretrained segformer [here](https://drive.google.com/drive/folders/10XgSW8f7ghRs9fJ0dE-EV8G2E_guVsT5?usp=sharing) and place them in 'pretrained' folder in the following structure:
-
-```shell
-<pretrained>
-|-- <mit_b0.pth>
-|-- <mit_b1.pth>
-|-- <mit_b2.pth>
-|-- <mit_b3.pth>
-|-- <mit_b4.pth>
-|-- <mit_b5.pth>
 ```
 
 * Execute [preprocess.py](./preprocess.py) to obtain the pixel ratio and mean loss for each class.
