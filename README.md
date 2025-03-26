@@ -17,9 +17,11 @@ Then, place them in 'datasets' folder in the following structure:
 ```
 
 ## Prepare Sampled Synthetic Dataset
-We use the checkpoint of our [Temporal-Consistent-RGBT-Segmentation](https://github.com/lab-sun/Temporal-Consistent-RGBT-Segmentation) to calculate the mean loss for each class so you can follow its guideline to prepare the environment.
+We utilize the checkpoint of our [Temporal-Consistent-RGBT-Segmentation](https://github.com/lab-sun/Temporal-Consistent-RGBT-Segmentation) repository to compute the mean loss for each class. Please refer to its guidelines to set up the environment.
 
-First, you can use [preprocess.py](./preprocess.py) to obtain the pixel ratio and mean loss of each class.
+First, execute [preprocess.py](./preprocess.py) to obtain the pixel ratio and mean loss for each class.
+
+Next, execute [resample.py](./resample.py) to create a sampled synthetic dataset by adjusting the maximum sampling number.
 
 ## Results
 We provide pretrained weights obtained using our method by jointly training synthetic and real images on the MFNet dataset. These weights are applicable to methods utilizing different backbones on [RTFNet](https://github.com/yuxiangsun/RTFNet), [CMX](https://github.com/huaaaliu/RGBX_Semantic_Segmentation), and [CRM](https://github.com/UkcheolShin/CRM_RGBTSeg).
