@@ -34,21 +34,21 @@ We provide pretrained weights obtained using our method by jointly training synt
 ### RTFNet
 | Backbone | mIOU | Improvement | Weight |
 |:---:|:---:|:---:|:---:|
-| ResNet-50 | 56.1% | 4.4% | [Google Drive](https://drive.google.com/file/d/1YBqEch0ofjymC_SN7HVIr6zNcfSYugso/view?usp=drive_link) or [NAS](http://144.214.80.11/downloads/2025_ral_syntheticseg/checkpoints/) |
-| ResNet-152 | 56.9% | 3.7% | [Google Drive](https://drive.google.com/file/d/1sQDAxNSWD9h22xDcxFqh750-xBQjZ4_o/view?usp=drive_link) or [NAS](http://144.214.80.11/downloads/2025_ral_syntheticseg/checkpoints/) |
+| ResNet-50 | 56.1% | 4.4% | [Google Drive](https://drive.google.com/file/d/1YBqEch0ofjymC_SN7HVIr6zNcfSYugso/view?usp=drive_link) or [NAS](http://nas.labsun.org/downloads/2025_ral_syntheticseg/checkpoints/) |
+| ResNet-152 | 56.9% | 3.7% | [Google Drive](https://drive.google.com/file/d/1sQDAxNSWD9h22xDcxFqh750-xBQjZ4_o/view?usp=drive_link) or [NAS](http://nas.labsun.org/downloads/2025_ral_syntheticseg/checkpoints/) |
 
 ### CMX
 | Backbone | mIOU | Improvement | Weight |
 |:---:|:---:|:---:|:---:|
-| MiT-B2 | 60.4% | 2.2% | [Google Drive](https://drive.google.com/file/d/15TBB1EcMxCG5MqmZ8-H9LGmdY0LZdo97/view?usp=drive_link) or [NAS](http://144.214.80.11/downloads/2025_ral_syntheticseg/checkpoints/) |
-| MiT-B4 | 60.9% | 1.2% | [Google Drive](https://drive.google.com/file/d/1NrvYwmstv_zHOiAx4MQvDUFcm_aS3Gjs/view?usp=drive_link) or [NAS](http://144.214.80.11/downloads/2025_ral_syntheticseg/checkpoints/) |
+| MiT-B2 | 60.4% | 2.2% | [Google Drive](https://drive.google.com/file/d/15TBB1EcMxCG5MqmZ8-H9LGmdY0LZdo97/view?usp=drive_link) or [NAS](http://nas.labsun.org/downloads/2025_ral_syntheticseg/checkpoints/) |
+| MiT-B4 | 60.9% | 1.2% | [Google Drive](https://drive.google.com/file/d/1NrvYwmstv_zHOiAx4MQvDUFcm_aS3Gjs/view?usp=drive_link) or [NAS](http://nas.labsun.org/downloads/2025_ral_syntheticseg/checkpoints/) |
 
 ### CRM
 | Backbone | mIOU | Improvement | Weight |
 |:---:|:---:|:---:|:---:|
-| Swin-T | 59.9% | 0.8% | [Google Drive](https://drive.google.com/file/d/1l7AZNK15bVyI0uLqwL41Cv4jBk40iFAp/view?usp=drive_link) or [NAS](http://144.214.80.11/downloads/2025_ral_syntheticseg/checkpoints/) |
-| Swin-S | 62.0% | 0.8% | [Google Drive](https://drive.google.com/file/d/1JulSZmgM_pHLoLriemx4YagXL2H0jAps/view?usp=drive_link) or [NAS](http://144.214.80.11/downloads/2025_ral_syntheticseg/checkpoints/) |
-| Swin-B | 62.1% | 0.7% | [Google Drive](https://drive.google.com/file/d/1f1uwYDHAe9EfoWu3DRQ0iIcdDUINorub/view?usp=drive_link) or [NAS](http://144.214.80.11/downloads/2025_ral_syntheticseg/checkpoints/) |
+| Swin-T | 59.9% | 0.8% | [Google Drive](https://drive.google.com/file/d/1l7AZNK15bVyI0uLqwL41Cv4jBk40iFAp/view?usp=drive_link) or [NAS](http://nas.labsun.org/downloads/2025_ral_syntheticseg/checkpoints/) |
+| Swin-S | 62.0% | 0.8% | [Google Drive](https://drive.google.com/file/d/1JulSZmgM_pHLoLriemx4YagXL2H0jAps/view?usp=drive_link) or [NAS](http://nas.labsun.org/downloads/2025_ral_syntheticseg/checkpoints/) |
+| Swin-B | 62.1% | 0.7% | [Google Drive](https://drive.google.com/file/d/1f1uwYDHAe9EfoWu3DRQ0iIcdDUINorub/view?usp=drive_link) or [NAS](http://nas.labsun.org/downloads/2025_ral_syntheticseg/checkpoints/) |
 
 ## Citation
 If you use our work in your research, please cite:
