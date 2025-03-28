@@ -54,11 +54,13 @@ We provide pretrained weights obtained using our method by jointly training synt
 If you use our work in your research, please cite:
 
 ```    
-    @article{li2025syntheticseg,
-      title={Improving RGB-Thermal Semantic Scene Understanding with Synthetic Data Augmentation for Autonomous Driving},
-      author={Li, Haotian and Chu, Henry K and Sun, Yuxiang},
-      journal={IEEE Robotics and Automation Letters},
-      year={2025},
-      publisher={IEEE}
-    }
+@ARTICLE{li2025improving,
+  author={Haotian Li and Henry K. Chu and Yuxiang Sun},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Improving RGB-Thermal Semantic Scene Understanding With Synthetic Data Augmentation for Autonomous Driving}, 
+  year={2025},
+  volume={10},
+  number={5},
+  pages={4452-4459},
+  doi={10.1109/LRA.2025.3548399}}
 ```
