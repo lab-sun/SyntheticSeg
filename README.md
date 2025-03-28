@@ -5,7 +5,7 @@ The official implementation of **Improving RGB-Thermal Semantic Scene Understand
 We propose a data-driven method, SyntheticSeg, to enhance RGB-T semantic segmentation by generating a large-scale, high-fidelity synthetic dataset.
 
 ## Synthetic Dataset
-You can download our synthetic dataset directly [here](http://labsun.mne.cityu.edu.hk/downloads/), or you can train and infer your own synthetic dataset through [FreestyleNet](https://github.com/essunny310/FreestyleNet).
+You can download our synthetic dataset directly [here](http://labsun.mne.cityu.edu.hk/downloads/2025_ral_syntheticseg/SyntheticSeg_datasets.zip), or you can train and infer your own synthetic dataset through [FreestyleNet](https://github.com/essunny310/FreestyleNet).
 Then, place them in 'datasets' folder in the following structure:
 
 ```shell
@@ -34,8 +34,8 @@ We provide pretrained weights obtained using our method by jointly training synt
 ### RTFNet
 | Backbone | mIOU | Improvement | Weight |
 |:---:|:---:|:---:|:---:|
-| ResNet-50 | 56.1% | 4.4% | [RTF-50](https://drive.google.com/file/d/1YBqEch0ofjymC_SN7HVIr6zNcfSYugso/view?usp=drive_link) |
-| ResNet-152 | 56.9% | 3.7% | [RTF-152](https://drive.google.com/file/d/1sQDAxNSWD9h22xDcxFqh750-xBQjZ4_o/view?usp=drive_link) |
+| ResNet-50 | 56.1% | 4.4% | [RTF-50(Google Drive)](https://drive.google.com/file/d/1YBqEch0ofjymC_SN7HVIr6zNcfSYugso/view?usp=drive_link) or [RTF-50(NAS)](http://144.214.80.11/downloads/2025_ral_syntheticseg/checkpoints/SyntheticSeg-ckpt-ResNet-50.pth)|
+| ResNet-152 | 56.9% | 3.7% | [RTF-152(Google Drive)](https://drive.google.com/file/d/1sQDAxNSWD9h22xDcxFqh750-xBQjZ4_o/view?usp=drive_link) or [RTF-152(NAS)](http://144.214.80.11/downloads/2025_ral_syntheticseg/checkpoints/SyntheticSeg-ckpt-ResNet-152.pth) |
 
 ### CMX
 | Backbone | mIOU | Improvement | Weight |
